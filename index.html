@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SoftUni Blog</title>
+        <link type="text/css" rel="stylesheet" href="Styles/style.css">
+        <script src="Scripts/jquery-1.10.2.js"></script>
+        <script src="Scripts/bootstrap.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="navbar navbar-default navbar-fixed-top text-uppercase">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="index.html" class="navbar-brand">SoftUni Blog</a>
+
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="register.html">Register</a></li>
+                            <li><a href="login.html">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container body-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <header>
+                            <h2>Why Choosing The Right Storage Infrastructure.</h2>
+                        </header>
+
+                        <p>The ever changing nature of IT can make choosing, designing and deploying a storage system very challenging today.
+                            This situation has been compounded in recent years by the rapid development of big data, the cloud and virtual-server technologies,
+                            which blur legacy notions of server, network and storage architectures and ultimately create significant performance issues. Now,
+                            more than ever, designing an efficient storage system is critical, as it provides an underpinning for all elements in the IT infrastructure.
+                            This article examines the major aspects of designing a storage system to meet these modern demands and touches on related considerations such as parity penalty,
+                            IOPS per GB, I/O storms, Moore’s Law and VM sprawl.
+                        </p>
+
+                        <small class="author">
+                            Gary Watson &ndash; Chief Technology Officer for Nexsan.
+                        </small>
+
+                        <footer>
+                            <div class="pull-right">
+                                <a class="btn-default btn-xs" href="viewpost.html">Read more &raquo;</a>
+                            </div>
+                        </footer>
+                    </div>
+
+                    <div class="col-md-6">
+                        <header>
+                            <h2>The Rise of Virtual Environments.</h2>
+                        </header>
+
+                        <p>As IT staff deploy virtual machines at an exponential rate, they inevitably reach the performance limits of the spinning disks,
+                            exceeding maximum storage IOPS before reaching maximum capacity.As a result, a significant amount of capacity is left unutilized.
+
+                            Consider the four main components of virtualization: CPU, memory, network and disk storage. CPU power continues to increase in accordance with Moore’s Law,
+                            doubling approximately every two years by providing an ever increasing number of processing cores and clock speeds.
+                            We also see memory sizes increasing rapidly owing to low-cost RAM modules and faster connectivity such as 10 Gigabit Ethernet, 8Gb Fibre Channel and 40Gb InfiniBand.
+                            All of this allows more VMs to be deployed at increased levels of performance.
+
+                            When we look at disk technology, however, classic spinning disks remain limited by their mechanical components, constraining the number of IOPS and thus the number of VMs they can support.
+                            Although SSD technology will alter this relationship, it is unlikely to become mainstream as primary storage for several years because of cost/capacity constraints and reliability concerns.
+                            So, as the IT industry’s thirst for greater numbers of VMs grows, it puts significant pressure on storage infrastructure—an issue that can only be addressed by more-efficient design.
+                        </p>
+
+                        <small class="author">
+                            Gary Watson &ndash; Chief Technology Officer for Nexsan.
+                        </small>
+
+                        <footer>
+                            <div class="pull-right">
+                                <a class="btn-default btn-xs" href="#">Read more &raquo;</a>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container modal-footer">
+                <p>&copy; 2016 Software University Foundation</p>
+            </div>
+        </footer>
+    </body>
+</html>
